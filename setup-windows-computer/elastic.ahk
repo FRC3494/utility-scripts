@@ -5,7 +5,6 @@ WinActivate("Setup - Elastic ")
 WinWaitActive("Setup - Elastic ")
 
 WinGetClientPos &x, &y, &width, &height, "Setup - Elastic "
-; 698 x 532
 
 Click(width * 0.08, height * 0.81) ; I accept the agreement
 Sleep(500)
